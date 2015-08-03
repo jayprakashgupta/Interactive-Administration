@@ -1,0 +1,38 @@
+<ProcedureCall>
+	<Procedure id="1001">
+		<Class name="com.ddn.upes.CreateFile">
+			<Function name="CreateFileWithName" return="void">
+				<Params type="String" value="Input File name" />
+				<Params type="String" value="Destination" />
+			</Function>
+		</Class>
+			<!--
+			<Functions name="test" type="static" return="void">
+				<Params type="Integer" value="Input Value 1" />
+				<Params type="Integer" value="Input Value 2" />				
+				<Params type="Integer" value="Input Value 3" />				
+			</Functions>
+		</Class>
+		<Classb name="PrefixReader">
+			<Function name="loadPrefixCodes" type="static" return="void">
+				<Params type="String" value="Input command" />
+			</Function>
+		</Classb>
+			-->
+	</Procedure>
+		<Procedure id="1002">
+		<Class name="com.ddn.upes.ShowFiles">
+			<Function name="showFilesOnServer" type="static" return="String">
+				<Params type="String" value="Path" />
+			</Function>
+		</Class>
+	</Procedure>
+	<Procedure id="1004">
+		<Class name="com.ddn.upes.DeleteFile">
+			<Function name="deleteFile" type="static" return="String">
+				<Params type="String" value="Input file name" />
+				<Params type="String" value="Path" />
+			</Function>
+		</Class>
+	</Procedure>
+</ProcedureCall>
